@@ -30,4 +30,4 @@
 
 ### 스택 : 
 - figma
-- spring boot + JPA
+- spring boot + (JPA or MyBatis)
