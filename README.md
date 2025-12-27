@@ -35,3 +35,18 @@
 
 ### 참고자료 : 
 https://bootstrapthemes.co/items/free-bootstrap-templates/
+
+
+www.community.demo
+├── board
+│   └── detail
+├── fragments
+│   ├── footer
+│   └── header
+├── index
+├── layout
+│   └── layout
+└── user
+    ├── login
+    └── signup
+ 
