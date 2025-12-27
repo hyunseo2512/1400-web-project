@@ -37,6 +37,8 @@
 https://bootstrapthemes.co/items/free-bootstrap-templates/
 
 
+## 📁필수 템플릿
+<pre>
 www.community.demo
 ├── board
 │   └── detail
@@ -49,4 +51,4 @@ www.community.demo
 └── user
     ├── login
     └── signup
- 
+</pre>
