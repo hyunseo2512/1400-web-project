@@ -24,7 +24,7 @@
 * dcinside : https://www.dcinside.com/
 * 번개장터 : https://m.bunjang.co.kr/
 * velog : https://velog.io/
-  등 커뮤니티 웹 사이트 참고
+  <br />등 커뮤니티 웹 사이트 참고
 
 **사이트 이름** : ?
 
