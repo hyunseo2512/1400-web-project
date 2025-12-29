@@ -42,7 +42,6 @@
 - Spring Boot 3.5.9
 - MySQL 8.4.6
 - Gradle
-- Linux
 
 ### 사용한 탬플릿 : 
 * https://bootstrapthemes.co/items/free-bootstrap-templates/
