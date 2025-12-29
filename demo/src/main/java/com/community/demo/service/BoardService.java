@@ -3,7 +3,11 @@ package com.community.demo.service;
 import com.community.demo.dto.BoardDTO;
 import com.community.demo.entity.Board;
 
+import java.util.List;
+
 public interface BoardService {
+
+   
 
     /* convertDtoToEntity */
     default Board convertDtoToEntity(BoardDTO boardDTO){
@@ -34,4 +38,6 @@ public interface BoardService {
     }
 
     Long insert(BoardDTO boardDTO);
+
+    List<BoardDTO> getList();
 }
