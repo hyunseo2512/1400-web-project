@@ -31,10 +31,9 @@ public class SecurityConfig {
                 .authorizeHttpRequests(authorize -> authorize
                         .requestMatchers("/user/list").hasAnyRole("ADMIN")
                         .requestMatchers("/","/dist/**", "/js/**","/image/**", "/upload/**",
-                                "/board/list", "/board/detail", "/comment/list/**",
+                                "/board/detail", "/comment/list/**",
                                 "/user/join","/user/login","/error/**"
                         ).permitAll()
-                        // 나중에 권한에 따른 설정을 추가
                         .anyRequest().authenticated()
                 )
                 .formLogin(login -> login
