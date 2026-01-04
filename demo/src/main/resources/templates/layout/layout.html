@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en"
       xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
 <head>
     <meta charset="UTF-8">
     <title>Community</title>
     <link rel="icon" th:href="@{/image/favicon.ico}">
     <link rel="stylesheet" th:href="@{/dist/css/bootstrap.min.css}">
-    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
+    <link rel="stylesheet" th:href="@{/dist/css/styles.css}"/>
+    <link rel="stylesheet" th:href="@{/dist/css/style.min.css}"/>
+    <link rel="stylesheet" th:href="@{/dist/css/toastui-editor.min.css}" />
     <script th:src="@{/dist/js/bootstrap.bundle.min.js}"></script>
+    <script src="@{/dist/js/all.js}" crossorigin="anonymous"></script>
 </head>
 <body>
 <div th:replace="~{fragments/header :: header}"></div>

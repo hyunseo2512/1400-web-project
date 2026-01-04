@@ -6,6 +6,8 @@ import com.community.demo.entity.AuthRole;
 import com.community.demo.entity.AuthUser;
 import com.community.demo.entity.User;
 
+import java.util.List;
+
 public interface UserService {
 
     // convert DtoToEntity
@@ -53,4 +55,6 @@ public interface UserService {
     void lastLoginUpdate(String name);
 
     String register(UserDTO userDTO);
+
+    List<UserDTO> getList();
 }

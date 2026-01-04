@@ -23,7 +23,7 @@
         <div class="mb-3">
             <label for="w" class="form-label"></label>
             <input type="hidden" name="writer"
-                   class="form-control" id="w" >
+                   class="form-control" id="w" th:value="${#authentication.name}">
         </div>
 
         <button class="btn btn-primary" id="regBtn">게시하기</button>

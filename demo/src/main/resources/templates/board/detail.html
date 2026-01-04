@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
       layout:decorate="~{layout/layout}">
 
 <div layout:fragment="content" class="container-md" th:with="board = ${board}">
@@ -23,7 +24,7 @@
               <p class="card-text">[[${board.content}]]</p>
             </div>
             <div id="comment">
-              <div class="input-group my-3">
+              <div class="input-group my-3" sec:authorize="isAuthenticated()">
                 <span class="input-group-text" id="cmtWriter">tester</span>
                 <input type="text" id="cmtText" class="form-control" placeholder="Add Comment..." aria-label="Username" aria-describedby="basic-addon1">
                 <button type="button" id="cmtAddBtn" class="btn btn-primary">post</button>

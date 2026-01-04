@@ -14,6 +14,12 @@ import java.util.List;
 public class UserDTO {
     private String email;
     private String pwd;
+
+
+    private String firstName;
+    private String lastName;
+    private String pwdConfirm;
+
     private String nickName;
     private LocalDateTime lastLogin;
     private LocalDateTime regDate, modDate;

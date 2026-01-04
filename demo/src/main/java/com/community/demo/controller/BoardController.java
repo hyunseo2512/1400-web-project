@@ -43,7 +43,7 @@ public class BoardController {
         BoardFileDTO boardFileDTO = new BoardFileDTO(boardDTO, fileList);
         Long bno = boardService.insert(boardFileDTO);
 
-        return "redirect:/board/list";
+        return "redirect:/";
     }
 
     @GetMapping("/detail")
