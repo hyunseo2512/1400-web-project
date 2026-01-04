@@ -55,4 +55,7 @@ public class UserController {
 
     @GetMapping("password")
     public void password() {}
+
+    @GetMapping("/charts")
+    public void charts(){}
 }

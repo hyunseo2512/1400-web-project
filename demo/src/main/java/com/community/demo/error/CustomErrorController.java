@@ -18,6 +18,9 @@ public String handlerError(HttpServletRequest request) {
     log.info(">>> status >> {}", status);
     if (status != null) {
         int statusCode = Integer.parseInt(status.toString());
+        if (statusCode == HttpStatus.UNAUTHORIZED.value()) {
+            return VIEW_PATH + "401";
+        }
         if (statusCode == HttpStatus.NOT_FOUND.value()) {
             return VIEW_PATH + "404";
         }
